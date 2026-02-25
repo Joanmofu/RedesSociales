@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+body{
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+    padding: 60px;
+    background-image: linear-gradient(to right,hsl(215, 100%, 50%),#b10000);
+    border-bottom: 5px solid black;
+}
+.social-container{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    border: 1px solid black;
+}
+.icon{
+    position: relative;
+    padding-top: 70px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+
+
+.icon .fab{
+    font-size: 150px;
+}
+.facebook .fab{
+    color: blue;
+}
+.instagram .fab{
+    background: linear-gradient(45deg, #833AB4, #FD1D1D, #FCB045);
+    background-clip: text;
+    color: transparent;
+}
+.github .fab{
+    color: #181717;
+}
+.youtube .fab{
+    color: red
+}
+.icon .mensaje{
+    display: none;
+}
+.facebook:hover .mensaje{
+    display: block;
+    position: absolute;
+    top: -75px;
+    right: 55px;
+    font-size: 40px;
+    background-color: #181717;
+    color: white;
+    padding: 10px ;
+
+}
+.facebook:hover .fab{
+    color: white;
+}
+.facebook:hover{
+    background-color: #181717;
+}
+.instagram:hover .mensaje{
+    display: block;
+    position: absolute;
+    top: -75px;
+    right: 55px;
+    font-size: 40px;
+    background-color: #181717;
+    color: white;
+    padding: 10px ;
+
+}
+.instagram:hover .fab{
+    color: white;
+}
+.instagram:hover{
+    background-color: #181717;
+}
+.github:hover .mensaje{
+    display: block;
+    position: absolute;
+    top: -75px;
+    right: 80px;
+    font-size: 40px;
+    background-color: #181717;
+    color: white;
+    padding: 10px ;
+
+}
+.github:hover .fab{
+    color: white;
+}
+.github:hover{
+    background-color: #181717;
+}
+.youtube:hover .mensaje{
+    display: block;
+    position: absolute;
+    top: -75px;
+    right: 75px;
+    font-size: 40px;
+    background-color: #181717;
+    color: white;
+    padding: 10px ;
+
+}
+.youtube:hover .fab{
+    color: white;
+}
+.youtube:hover{
+    background-color: #181717;
+}
